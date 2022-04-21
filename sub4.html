@@ -1,0 +1,242 @@
+<!DOCTYPE html><!--22161119 조해미 -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sub5</title>
+    <style media="screen">
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      @font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+      html, body {
+         height: 100%;
+         margin: 0;
+         height: 100%;
+         font-family: "나눔스퀘어";
+         color: white;
+         background-color: #292929;
+         background-image: url(img/bgbgbg.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+        }
+  
+      li{
+        list-style-type: none;
+      }
+      header {
+        width: 100%;
+        height: 55px;
+        top: 0;
+        margin: 0 auto;
+        position: fixed;
+        z-index: 9999;
+        background-color: #000000;
+      }
+      #logo{
+        float: left;
+        margin: 13px 0 0 20px;
+      }
+      #menus {
+         float: right;
+      }
+      #main_menu {
+        margin-top: 20px;
+        font-family:'KyoboHandwriting2020A';
+        font-size: 14px;
+        color: #ffffff;
+      }
+      #main_menu li {
+        display: inline;
+        margin-right: 40px;
+      }
+
+li {
+  margin-top: 100px;
+}
+a:link{
+  text-decoration: none;
+  color: white;
+}
+a:visited{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: gray;
+}
+a:active {
+  text-decoration: none;
+  color: white;
+}
+ /* 드롭다운 메뉴------------------ */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+td img {
+  width: 200px;
+  padding-left: 40px;
+}
+td{
+  text-align: left;
+  padding-left: 10pX;
+  vertical-align: top;
+  padding-top: 40px;
+  font-family: 'KyoboHandwriting2020A';
+}
+.bottom {
+  padding-top: 100px;
+}
+table {
+  margin: 0 auto;
+}
+.button {
+  font-family: 'KyoboHandwriting2020A';
+  border-radius: 5px;
+  background-color: #ffb500;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 14px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover {
+  background-color: #005bbb;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+    </style>
+  </head>
+  <body>
+<header>
+  <div id='logo'>
+      <span><a href='index.html'><img src='img/ls_w.png' width="170"></a></span>
+    </div>
+  <nav id='menus'>
+    <ul id='main_menu'>
+      <div class="dropdown">
+      <li><a href='sub1.html'>전쟁발발</a></li>
+      <div class="dropdown-content">
+        <a href="sub1_1.html">역사적</a>
+        <a href="sub1_2.html">경제적</a>
+        <a href="sub1_3.html">정치적</a>
+        </div>
+        </div>
+        <div class="dropdown">
+      <li><a href='sub2.html'>협상진행</a></li>
+      <div class="dropdown-content">
+        <a href="sub2_1.html">1차 협상</a>
+        <a href="sub2_2.html">2차 협상</a>
+        <a href="sub2_3.html">3차 협상</a>
+        <a href="sub2_4.html">4차 협상</a>
+        <a href="sub2_5.html">5차 협상</a>
+        </div>
+      </div>
+      <li><a href='sub3.html'>시각자료</a></li>
+      <li><a href='sub4.html'>긴급구호</a></li>
+      </div>
+    </ul>
+  </nav>
+</header>
+<table>
+  <tr>
+    <td class="bottom" rowspan="2"><img src="img/gg1.png"></td><td class="bottom"><h3>굿네이버스</h3>
+      <br>하루아침에 삶을 잃은 우크라이나 아동과 난민들을 위해 따뜻한 손길이 필요합니다.
+    </td>
+    <td></td>
+    <tr>
+      <td></td><td><a href="https://www.goodneighbors.kr/support_pay/once.gn?supptbiz=42&giveMoney=10000&campaignCode=OI2022018077
+        " target="_blank"><button class="button"><span>후원이동</span></button></a></td>
+      </tr>
+  </tr>
+  <tr>
+    <td rowspan="2"><img src="img/gg2.png"></td><td><h3>국제엠네스티</h3><br>우크라이나의 위급 상황에 앰네스티가 대응할 수 있도록 지금 후원으로 함께해주세요.
+</td>
+<td></td>
+<tr>
+  <td></td><td><a href="https://box.donus.org/box/amnesty/Ukrainecrisis?utm_source=naver&utm_medium=cpc&utm_campaign=ISSUE&utm_content=9.%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98_PC&utm_term=%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98%EA%B8%B4%EA%B8%89%EA%B5%AC%ED%98%B8
+    " target="_blank"><button class="button"><span>후원이동</span></button></a></td>
+  </tr>
+  </tr>
+  <tr>
+    <td rowspan="2"><img src="img/gg3.png"></td><td><h3>세이브더칠드런</h3><br>전쟁으로 고통받는 750만 우크라이나 어린이를 위한 긴급구호에 동참해 주세요.
+</td>
+<tr>
+  <td></td><td><a href="https://www.sc.or.kr/participate/campaignView.do?NO=29049&utm_source=naver_pc&utm_medium=paid_search&utm_campaign=sa&utm_content=%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98&utm_term=%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98%EA%B8%B4%EA%B8%89%EA%B5%AC%ED%98%B8&BSCPN=SC_PC&n_media=27758&n_query=%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98%EA%B8%B4%EA%B8%89%EA%B5%AC%ED%98%B8&n_rank=7&n_ad_group=grp-a001-01-000000025990313&n_ad=nad-a001-01-000000172668813&n_keyword_id=nkw-a001-01-000004367578000&n_keyword=%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98%EA%B8%B4%EA%B8%89%EA%B5%AC%ED%98%B8&n_campaign_type=1&n_ad_group_type=1&NaPm=ct%3Dl289aupk%7Cci%3D0yW0000%5FCQ1wfd52EfoJ%7Ctr%3Dsa%7Chk%3Dabcb073fa3c1b4c8ae8d34c126f2c8fda4314089
+    " target="_blank"><button class="button"><span>후원이동</span></button></a></td>
+  </tr>
+  </tr>
+  <tr>
+    <td rowspan="2"><img src="img/gg4.png"></td><td><h3>국경없는 의사회</h3><br>국경없는의사회는 지금 우크라이나와 인근에서 인도적 지원 활동을 펼치고 있습니다. </td>
+  </tr>
+      <td></td><td><a href="https://msf.or.kr/campaigns/ukraine_2022/?utm_source=naver&utm_medium=paid&utm_campaign=Ukraine_Mar2022&NaPm=ct%3Dl289e3zs%7Cci%3D0yC0002xCQ1wgA12810g%7Ctr%3Dsa%7Chk%3D880c48e4e4c4bf1765ec4958743190de910a63c4
+        " target="_blank"><button class="button"><span>후원이동</span></button></a></td>
+      <tr>
+    <td rowspan="2"><img src="img/gg5.png"></td><td><h3>사마리안퍼스</h3><br>어둠 속에 떨고 있는 우크라이나 난민들에게 식량, 거처, 의료를 제공해주세요.
+    </tr>
+  <tr>
+    <td></td><td><a href="https://samaritanspurse.or.kr/ukraine-response-1min-prayer/?utm_source=naver&utm_medium=cpc&utm_campaign=ukraine_pc&utm_content=%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98%EA%B8%B4%EA%B8%89%EA%B5%AC%ED%98%B8&utm_term=%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98%EA%B8%B4%EA%B8%89%EA%B5%AC%ED%98%B8
+      " target="_blank"><button class="button"><span>후원이동</span></button></a></td>
+    </tr>
+</table>
+  </body>
+</html>
